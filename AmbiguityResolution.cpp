@@ -44,7 +44,7 @@ class d : public b
     int a;
 
 public:
-    void say()
+    void say() // This new method will overwrite the method derived from the b class.
     {
         cout << "Welome to my chenull" << endl;
     }
