@@ -143,7 +143,7 @@ int hybridCalculator::ChooseCalculator(int a)
 
     if (a == 1)
     {
-        simpleCalculator(12, '*', 12); // choose operations for hybrid
+        simpleCalculator(12, '*', 12);
     }
 
     if (a == 2)
