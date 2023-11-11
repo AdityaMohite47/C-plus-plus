@@ -12,7 +12,7 @@ protected:
 
 Derivation of members and how they are inherited
 
-                                      D E R I V E D  C L A S S 
+                              D E R I V E D  C L A S S 
       _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
  B   |    MEMBERS      | IN PUBLIC DERV.  |IN PRIVATE DERV.| IN PROTECTED DREV.|
  A    _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
