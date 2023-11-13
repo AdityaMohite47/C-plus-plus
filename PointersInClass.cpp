@@ -24,12 +24,12 @@ int main()
     // complex c1;
     // complex *ptr = &c1; // an object of class complex which is a pointer to object c1 of the same class.
 
-    // Using new keyword :
-    // complex *ptr = new complex;
-
     // simple way :
     // c1.setdata(1, 54);
     // c1.getdata();
+
+    // Using new keyword :
+    // complex *ptr = new complex;
 
     // Using pointers :
     // (*ptr).setdata(1, 54);
@@ -48,14 +48,22 @@ int main()
     complex *ptr = new complex[4];
 
     // for complex[0];
-     ptr->setdata(1,4);
-     ptr->getdata();
+    ptr->setdata(1, 4);
+    ptr->getdata();
 
     // for complex[1];
-    (ptr+1)->setdata(4,69);
-    (ptr+1)->getdata();
+    (ptr + 1)->setdata(4, 69);
+    (ptr + 1)->getdata();
 
     // And so on....
+
+    // For tracing the array of objects using for loop :
+
+    // for (int i = 0; i < 4; i++)
+    // {
+    //     (ptr + i)->setdata(4, 69);
+    //     (ptr + i)->getdata();
+    // }
 }
 
 // Pointer's basic example :
