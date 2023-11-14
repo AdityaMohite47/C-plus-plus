@@ -43,8 +43,8 @@ int main()
 
     //  Practically :
     //     for base class :
-     basepointer->varbase = 69;
-     basepointer->display();
+    basepointer->varbase = 69;
+    basepointer->display();
 
     // basepointer->varderived = 96  will throw error because when we set a pointer of base class to a class derived from it then we can only
     // access the methods and memebers of base class not of any new member or method added in derived class.
