@@ -6,7 +6,7 @@
 // The body is called after all constructors are finished executing.
 
 //     Syntax :
-//         {{Derived-Constructors}}(args......) : {{Base1constructor}}(pass the value for args from args) ,  {{Base1constructor}}(pass the value for args from args)
+//         {{Derived-Constructors}}(args......) : {{Base1constructor}}(pass the value for args from args) ,  {{Base2constructor}}(pass the value for args from args)
 //         {
 
 //         }
