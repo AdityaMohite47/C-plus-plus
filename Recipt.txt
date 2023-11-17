@@ -1,7 +1,4 @@
- 	  	  	 D-Mart Purchase Recipt 	  	  	
-| Sr.no |   Product   |  Price  |  Quantity  | Total Price |
-| 1.    | Colgate Toothpaste |  77.4 |  1 |  77.4 |
-| Sum   | 77.4                                                  |
- __________________________________________________________ 
-   Thank You  Aditya Mohite for choosing us as your trusted Purchasing Outlet...
- Here is Your Recipt for the Purchase of the following Purchases
+        D-Mart Purchase Recipt
+
+ Srno.     Items               Price       Quantity     Total_Price
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

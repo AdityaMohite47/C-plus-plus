@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <cstring>
+#include <iomanip>
 using namespace std;
 
 class Shop
@@ -20,17 +21,16 @@ public:
         cout << "Generating Recipt ..." << endl
              << endl;
         printrecipt();
+        cout << "Recipt Generated" << endl
+             << "Thank You" << endl;
     }
     void printrecipt()
     {
         ofstream recipt("Recipt.txt");
-        recipt << " \t  \t  \t D-Mart Purchase Recipt \t  \t  \t" << endl
-               << "| Sr.no |   Product   |  Price  |  Quantity  | Total Price |" << endl
-               << "| 1.    | " << Product << " |  " << price << " |  " << quantity << " |  " << finalprice << " |" << endl
-               << "| Sum   | " << finalprice << "                                                  |" << endl
-               << " __________________________________________________________ " << endl
-               << "   Thank You  " << Customer << " for choosing us as your trusted Purchasing Outlet..." << endl
-               << " Here is Your Recipt for the Purchase of the following Purchases";
+        recipt << setw(30) << "D-Mart Purchase Recipt" << endl
+               << endl
+               << setw(5) << " Srno. " << setw(10) << " Items " << setw(20) << " Price " << setw(15) << " Quantity " << setw(15) << "Total_Price" << endl
+               << "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -";
     }
 };
 
