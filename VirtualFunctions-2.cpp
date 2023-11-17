@@ -19,6 +19,7 @@ public:
     // }
 
     virtual void display(){}
+    // virtual void display()=0; A Pue virtual function ... more on it in Abstract Base Class...
     
 };
 
