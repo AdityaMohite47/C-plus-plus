@@ -1,4 +1,0 @@
-        D-Mart Purchase Recipt
-
- Srno.     Items               Price       Quantity     Total_Price
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
