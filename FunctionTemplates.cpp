@@ -16,7 +16,7 @@
 
 #include <iostream>
 using namespace std;
-template <class t = int>
+template <class t = int >
 
 void swapp(t &a, t &b)
 {
