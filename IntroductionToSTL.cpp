@@ -75,7 +75,7 @@ int main()
     vector<int>::iterator iter = v.begin();
     v.insert(iter + 3, 96);
     display(v);
-   // cout << v.size() << endl;
+    // cout << v.size() << endl;
 
     // cout << "Enter the size of your vector" << endl;
     // cin >> size;

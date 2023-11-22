@@ -1,0 +1,7 @@
+ Payment recipt
+Product                         Price                      Quantity                   Total_Price
+colgate                              40                               1                              40
+Hawkings_Pressure_Cooker                          1599.9                               1                          1599.9
+Lays_Potato_Chips                              20                               5                             100
+American_Tuorister_Backpack                          1299.9                               1                          1299.9
+Logitech_Gaming_Mouse                             599                               1                             599
