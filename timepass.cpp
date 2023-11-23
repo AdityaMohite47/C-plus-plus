@@ -26,20 +26,14 @@
 //          << endl
 //          << matirx2[0][1] << "     " << matirx2[1][1];
 
-         
 // }
 
 #include <iostream>
 using namespace std;
 
- int main() 
+int main()
 {
-int a = 1 ;
-while (a<=100)
-{
- cout << a << endl;
- a++;
-} 
-
-
+ int a ;
+  cin >> a ;
+   cout << float(a) << endl ;
 }

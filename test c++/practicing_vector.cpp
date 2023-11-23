@@ -25,10 +25,17 @@ public:
     }
     void makerecipt()
     {
-        fstream write;
+        ofstream write;
         write.open("Recipt.txt");
         write << " Payment recipt" << endl
-              << "Product" << setw(30) << "Price" << setw(30) << "Quantity" << setw(30) << "Total_Price" << endl
+              << endl
+              << "   Product   "
+              << "|"
+              << "   Price   "
+              << "|"
+              << "   Quantity   "
+              << "|"
+              << "   Total_Price" << endl
               << endl;
         vector<string>::iterator s;
         vector<float>::iterator p;
@@ -37,16 +44,20 @@ public:
         int i = 0;
         for (s = product.begin(); s != product.end(); ++s)
         {
-            write << *s << "  " << setw(30);
+            write << *s << "            "
+                  << "|";
             for (p = price.begin(); p != price.end();)
             {
-                write << *(p + i) << "  " << setw(30);
+                 write << "    " << *(p + i) << "   "
+                       << "|";
                 for (q = quantity.begin(); q != quantity.end();)
                 {
-                    write << *(q + i) << "  " << setw(30);
+                    write << "      " << *(q + i) << "       "
+                          << "|";
                     for (fp = finalprice.begin(); fp != finalprice.end();)
                     {
-                        write << *(fp + i) << endl;
+                        write << "     " << *(fp + i) << endl
+                              << endl;
                         break;
                     }
                     break;
