@@ -1,0 +1,5 @@
+ Payment receipt
+
+        Product          Price       Quantity    Total Price
+------------------------------------------------------------
+       product1          10.00              3          30.00
