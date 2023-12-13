@@ -58,4 +58,12 @@
 		],
 		"description": "For Loop "
 	  }
+
+	  "endl": {
+		"prefix": "endl",
+		"body": [
+		  "std::endl"
+		],
+		"description": "For Loop "
+	  }
 }

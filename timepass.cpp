@@ -29,11 +29,18 @@
 // }
 
 #include <iostream>
-using namespace std;
 
 int main()
 {
- int a ;
-  cin >> a ;
-   cout << float(a) << endl ;
+   int blocks, height=0, blocks_on_height;
+   std::cin >> blocks;
+   int totalblocks = blocks;
+
+   while (totalblocks < height)
+   {
+      blocks_on_height = blocks - blocks - 1;
+      height++;
+      totalblocks--;
+   }
+   std::cout << height << std::endl ;
 }
