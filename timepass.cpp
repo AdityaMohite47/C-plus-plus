@@ -29,18 +29,29 @@
 // }
 
 #include <iostream>
+#include <map>
 
-int main()
-{
-   int blocks, height=0, blocks_on_height;
-   std::cin >> blocks;
-   int totalblocks = blocks;
+int main() {
+    // Create a map with some key-value pairs
+    std::map<int, std::string> myMap;
+    myMap[1] = "One";
+    myMap[2] = "Two";
+    myMap[3] = "Three";
+    myMap[4] = "Four";
+    myMap[5] = "Five";
 
-   while (totalblocks < height)
-   {
-      blocks_on_height = blocks - blocks - 1;
-      height++;
-      totalblocks--;
-   }
-   std::cout << height << std::endl ;
+    // Search for a key in the map
+    int keyToFind = 3;
+    auto it = myMap.find(keyToFind);
+
+    // Check if the key is found
+    if (it != myMap.end()) {
+        // Key found, print the corresponding value
+        std::cout << "Value for key " << keyToFind << ": " << it->second << std::endl;
+    } else {
+        // Key not found
+        std::cout << "Key " << keyToFind << " not found in the map." << std::endl;
+    }
+
+    return 0;
 }
