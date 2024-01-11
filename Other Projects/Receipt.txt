@@ -1,0 +1,6 @@
+ Payment receipt
+
+        Product          Price       Quantity    Total Price
+------------------------------------------------------------
+           vine        7500.00              2       15000.00
+          marie          10.00              5          50.00
